@@ -1,6 +1,6 @@
 import './App.css';
+import Listing from './components/Listing';
 import etsy from './etsy'
-import Listing from './Listing';
 
 function App() {
   const items = JSON.parse(etsy)
